@@ -205,6 +205,18 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <distributionManagement>
+		 <snapshotRepository>
+		    <id>nexusRepo</id>
+		    <url>http://75.101.188.227:8081/repository/arunasnapshot/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>nexusRepo</id>
+		    <url>http://75.101.188.227:8081/repository/arunarelease/</url>
+		</repository>
+  	</distributionManagement> 
+    
 
     <modules>
         <module>gameoflife-build</module>
